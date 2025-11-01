@@ -18,35 +18,35 @@ public class Employee {
         idn++;
     }
 
-    String getFirstName() {
+    public String getFirstName() {
         return firstName;
     }
 
-    String getLastName() {
+    public String getLastName() {
         return lastName;
     }
 
-    String getMiddleName() {
+    public String getMiddleName() {
         return middleName;
     }
 
-    int getNumDepart() {
+    public int getNumDepart() {
         return numDepart;
     }
 
-    int getSalary() {
+    public int getSalary() {
         return salary;
     }
 
-    int getId() {
+    public int getId() {
         return id;
     }
 
-    void setNumDepart(int numDepart) {
+    public void setNumDepart(int numDepart) {
         this.numDepart = numDepart;
     }
 
-    void setSalary(int salary) {
+    public void setSalary(int salary) {
         this.salary = salary;
     }
 

@@ -1,5 +1,5 @@
 public class EmployeeBook {
-    public Employee[] employees = new Employee[10];
+    private Employee[] employees = new Employee[10];
 
     public void setEmployees(Employee[] employees) {
         int i = 0;
@@ -11,8 +11,9 @@ public class EmployeeBook {
 
     public void printListEmployee() {
         for (Employee emp : this.employees) {
-            if (emp != null)
+            if (emp != null) {
                 System.out.println(emp.toString());
+            }
             else continue;
         }
     }
